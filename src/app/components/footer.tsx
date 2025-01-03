@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "./header/logo";
-import FooterContent from "./props/footerprp";
+import Logo from "@/public/images/logo.png";
+import FooterContent from "./props/footerprop";
 
 export default function Footer() {
   return (
@@ -34,7 +34,7 @@ export default function Footer() {
       <div className=" lg:h-[300px] md:h-[400px] bg-[#00000033] pt-7">
         <div className="flex  flex-col  lg:grid lg:grid-cols-5 lg:justify-center lg:h-[177px]   lg:w-[100svw] md:w-[690px] w-[90vw]   ">
           <div className="pl-2  lg:pl-6 lg:w-[248px]">
-            <Logo />
+            <Image src={Logo} alt="logo" width={100} height={50}/>
             <p className="text-[14px] md:text-[17px] flex flex-wrap overflow-hidden w-[310px] lg:w-[190px] leading-[20px] md:leading-[25px] mt-3 text-[#00000099]">
               {" "}
               We have clothes that suits your style and which you're proud to
