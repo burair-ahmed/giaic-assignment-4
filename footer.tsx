@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "./header/logo";
-import FooterContent from "./props/footerprp";
+import Logo from "./src/app/components/header/logo";
+import FooterContent from "./src/app/components/props/footerprop";
 
 export default function Footer() {
   return (
